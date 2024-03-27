@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ouzel", "ouzel\ouzel.csproj", "{A795AA1B-40F2-4072-8403-6470F7FD2503}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{33E42F97-BF26-46B1-B28D-4699DD9EC2FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ouzel.Test", "tests\ouzel.Test\ouzel.Test.csproj", "{B540EC84-46EC-4E65-9C64-EEF9574DAC03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ouzel.IO", "ouzel.IO\ouzel.IO.csproj", "{6DB19840-2CD5-43E5-B8B9-F358AE0D6B5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A795AA1B-40F2-4072-8403-6470F7FD2503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A795AA1B-40F2-4072-8403-6470F7FD2503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A795AA1B-40F2-4072-8403-6470F7FD2503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A795AA1B-40F2-4072-8403-6470F7FD2503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B540EC84-46EC-4E65-9C64-EEF9574DAC03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B540EC84-46EC-4E65-9C64-EEF9574DAC03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B540EC84-46EC-4E65-9C64-EEF9574DAC03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B540EC84-46EC-4E65-9C64-EEF9574DAC03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DB19840-2CD5-43E5-B8B9-F358AE0D6B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB19840-2CD5-43E5-B8B9-F358AE0D6B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB19840-2CD5-43E5-B8B9-F358AE0D6B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB19840-2CD5-43E5-B8B9-F358AE0D6B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B540EC84-46EC-4E65-9C64-EEF9574DAC03} = {33E42F97-BF26-46B1-B28D-4699DD9EC2FE}
+	EndGlobalSection
+EndGlobal
