@@ -3,21 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ouzel", "ouzel\ouzel.csproj", "{A795AA1B-40F2-4072-8403-6470F7FD2503}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ouzel", "ouzel\ouzel.csproj", "{A795AA1B-40F2-4072-8403-6470F7FD2503}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{33E42F97-BF26-46B1-B28D-4699DD9EC2FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ouzel.Test", "tests\ouzel.Test\ouzel.Test.csproj", "{B540EC84-46EC-4E65-9C64-EEF9574DAC03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ouzel.Test", "tests\ouzel.Test\ouzel.Test.csproj", "{B540EC84-46EC-4E65-9C64-EEF9574DAC03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ouzel.IO", "ouzel.IO\ouzel.IO.csproj", "{6DB19840-2CD5-43E5-B8B9-F358AE0D6B5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ouzel.IO", "ouzel.IO\ouzel.IO.csproj", "{6DB19840-2CD5-43E5-B8B9-F358AE0D6B5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ouzel.Printer", "ouzel.Printer\ouzel.Printer.csproj", "{2124B9B2-C63B-4FB7-BC39-2DF7AB5859A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ouzel.Printer.Test", "tests\ouzel.Printer.Test\ouzel.Printer.Test.csproj", "{5F19ABE9-007D-419D-B09E-A9ACDFE97178}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A795AA1B-40F2-4072-8403-6470F7FD2503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -32,8 +33,23 @@ Global
 		{6DB19840-2CD5-43E5-B8B9-F358AE0D6B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DB19840-2CD5-43E5-B8B9-F358AE0D6B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DB19840-2CD5-43E5-B8B9-F358AE0D6B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2124B9B2-C63B-4FB7-BC39-2DF7AB5859A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2124B9B2-C63B-4FB7-BC39-2DF7AB5859A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2124B9B2-C63B-4FB7-BC39-2DF7AB5859A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2124B9B2-C63B-4FB7-BC39-2DF7AB5859A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F19ABE9-007D-419D-B09E-A9ACDFE97178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F19ABE9-007D-419D-B09E-A9ACDFE97178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F19ABE9-007D-419D-B09E-A9ACDFE97178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F19ABE9-007D-419D-B09E-A9ACDFE97178}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B540EC84-46EC-4E65-9C64-EEF9574DAC03} = {33E42F97-BF26-46B1-B28D-4699DD9EC2FE}
+		{5F19ABE9-007D-419D-B09E-A9ACDFE97178} = {33E42F97-BF26-46B1-B28D-4699DD9EC2FE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA19FBB7-710F-4243-964E-8FA1298A152C}
 	EndGlobalSection
 EndGlobal
